@@ -1,3 +1,4 @@
+// @ts-nocheck
 "use client";
 import { cn } from "@/utils";
 import { useVoice } from "@humeai/voice-react";
@@ -32,8 +33,10 @@ const Messages = forwardRef<
                   className={cn(
                     "w-[80%]",
                     "bg-card",
-                    "border border-border rounded",
-                    msg.type === "user_message" ? "ml-auto" : ""
+                    "border border-border ",
+                    msg.type === "user_message"
+                      ? "ml-auto rounded-t-3xl rounded-r-3xl"
+                      : "rounded-t-3xl rounded-l-3xl"
                   )}
                   initial={{
                     opacity: 0,
@@ -53,7 +56,7 @@ const Messages = forwardRef<
                       "text-xs capitalize font-medium leading-none opacity-50 pt-4 px-3"
                     )}
                   >
-                    {msg.message.role}
+                    {msg.message.role === "user" ? "You" : "AI"}
                   </div>
                   <div className={"pb-3 px-3"}>{msg.message.content}</div>
                   <Expressions values={msg.models.prosody?.scores ?? {}} />

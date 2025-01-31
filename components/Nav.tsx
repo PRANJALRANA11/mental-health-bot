@@ -5,7 +5,7 @@ import { useLayoutEffect, useState } from "react";
 import { Button } from "./ui/button";
 import { Moon, Sun } from "lucide-react";
 import Github from "./logos/GitHub";
-import pkg from '@/package.json';
+import pkg from "@/package.json";
 
 export const Nav = () => {
   const [isDarkMode, setIsDarkMode] = useState(false);
@@ -29,17 +29,17 @@ export const Nav = () => {
   return (
     <div
       className={
-        "px-4 py-2 flex items-center h-14 z-50 bg-card border-b border-border"
+        "px-4 py-2 flex items-center bg-[#1E3470] text-white h-14 z-50 border-b border-border "
       }
     >
-      <div>
-     VOICE AI
-      </div>
+      <div>VOICE AI</div>
       <div className={"ml-auto flex items-center gap-1"}>
         <Button
           onClick={toggleDark}
           variant={"ghost"}
-          className={"ml-auto flex items-center gap-1.5"}
+          className={
+            "ml-auto flex items-center gap-1.5 rounded-3xl bg-white text-[#1E3470]"
+          }
         >
           <span>
             {isDarkMode ? (

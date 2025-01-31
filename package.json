@@ -12,6 +12,9 @@
   "dependencies": {
     "@humeai/voice": "^0.1.6",
     "@humeai/voice-react": "^0.1.6",
+    "@next/font": "^14.2.15",
+    "@radix-ui/react-form": "^0.1.1",
+    "@radix-ui/react-radio-group": "^1.2.2",
     "@radix-ui/react-slot": "^1.0.2",
     "@radix-ui/react-switch": "^1.0.3",
     "@radix-ui/react-toggle": "^1.0.3",
