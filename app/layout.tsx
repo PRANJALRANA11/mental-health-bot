@@ -7,8 +7,8 @@ import { cn } from "@/utils";
 import { Poppins } from "next/font/google";
 
 export const metadata: Metadata = {
-  title: "VOICE AI",
-  description: "VOICE AI real time conversation",
+  title: "My AI Therapist",
+  description: "AI Therapist for everyone",
 };
 
 const poppins = Poppins({
@@ -24,6 +24,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={poppins.variable}>
+      <head>
+        <link
+          rel="icon"
+          href="https://res.cloudinary.com/dz1iib5rr/image/upload/v1738334727/Screenshot_2025-01-31_201107-removebg-preview_p6jfjk.png"
+          sizes="any"
+        />
+      </head>
       <body
         className={cn(GeistSans.variable, GeistMono.variable, " font-poppins")}
       >
