@@ -15,7 +15,7 @@ export default async function page() {
   }
   return (
     <div className={"grow flex flex-col"}>
-      <Nav />
+      {/* <Nav /> */}
       <Chat accessToken={accessToken} />
     </div>
   );
