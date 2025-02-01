@@ -180,7 +180,7 @@ const TypeformMentalHealth = () => {
   const currentAnswer = answers[currentQuestionData.id];
 
   return (
-    <div className="min-h-screen p-4 bg-[#1e3470] ">
+    <div className="min-h-screen p-4 bg-[conic-gradient(at_center,_var(--tw-gradient-stops))] from-green-600/40 via-yellow-500/40 to-green-500/40 backdrop-blur-xl ">
       <div className="max-w-2xl mx-auto">
         <div className="mb-4 h-2 bg-gray-200 rounded">
           <div
