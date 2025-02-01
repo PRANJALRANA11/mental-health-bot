@@ -50,7 +50,7 @@ export default function ClientComponent({
   return (
     <div
       className={
-        "relative min-h-screen bg-[#1e3470]  grow flex flex-col mx-auto w-full overflow-hidden h-[0px]"
+        "relative min-h-screen bg-[conic-gradient(at_center,_var(--tw-gradient-stops))] from-green-600/40 via-yellow-500/40 to-green-500/40 backdrop-blur-xl  grow flex flex-col mx-auto w-full overflow-hidden h-[0px]"
       }
     >
       <VoiceProvider
@@ -65,7 +65,7 @@ export default function ClientComponent({
           Q6: How are you feeling today? Ans 6: ${answers[6]?.selectedOption}
           Q7: How are you feeling today? Ans 7: ${answers[7]?.selectedOption}
           Q8: How are you feeling today? Ans 8: ${answers[8]?.selectedOption}
-          Also  starts by talking about the answers user have already given to the survey
+          Also  starts by talking about the answers user have already given to the survey and give small responses ofREMEMBER THIS maximum 10 words do try to go over this range of words.
           `,
           type: "session_settings",
         }}
