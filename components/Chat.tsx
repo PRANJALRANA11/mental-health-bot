@@ -64,7 +64,9 @@ export default function ClientComponent({
           Q5: How are you feeling today? Ans 5: ${answers[5]?.selectedOption}
           Q6: How are you feeling today? Ans 6: ${answers[6]?.selectedOption}
           Q7: How are you feeling today? Ans 7: ${answers[7]?.selectedOption}
-          Q8: How are you feeling today? Ans 8: ${answers[8]?.selectedOption}`,
+          Q8: How are you feeling today? Ans 8: ${answers[8]?.selectedOption}
+          Also  starts by talking about the answers user have already given to the survey
+          `,
           type: "session_settings",
         }}
         onMessage={() => {
