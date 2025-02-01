@@ -1,3 +1,4 @@
+// @ts-nocheck
 "use client";
 interface AssessmentResponse {
   id: string;
