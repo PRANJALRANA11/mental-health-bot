@@ -54,7 +54,7 @@ export default function ClientComponent({
     >
       <VoiceProvider
         auth={{ type: "accessToken", value: accessToken }}
-        configId="0b20ccd9-4f88-47a3-af9a-e4fe8ad4bd18"
+        configId="0fe5d4fe-0eaa-49a5-899e-b8f055e3a8d4"
         sessionSettings={{
           systemPrompt: `We have collected some survey from the current user treat him according to his conditions mentioned in survey Q1: How are you feeling today? Ans 1: ${answers[1]?.selectedOption}
           Q2: How are you feeling today? Ans 2: ${answers[2]?.selectedOption}
