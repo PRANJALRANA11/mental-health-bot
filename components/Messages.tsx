@@ -18,7 +18,7 @@ const Messages = forwardRef(function Messages(_, ref) {
               <div
                 className={`rounded-2xl px-4 py-2 ${
                   isUser
-                    ? "bg-blue-500 text-white"
+                    ? "bg-[#ff9080] text-white"
                     : "bg-gray-200 text-gray-800"
                 }`}
               >

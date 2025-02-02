@@ -38,7 +38,7 @@ export default function ClientComponent({
     <div className=" bg-gradient-to-r from-violet-400/90 via-purple-400/80 to-orange-500/90">
       <div className="relative h-screen w-full max-w-3xl mx-auto overflow-hidden flex flex-col rounded-xl ">
         {/* Header */}
-        <div className="bg-blue-600 text-white p-4 flex items-center justify-between">
+        <div className="bg-[#FFB280] text-white p-4 flex items-center justify-between">
           <h1 className="text-lg font-semibold">Chat with us</h1>
           <button className="text-white">•••</button>
         </div>
